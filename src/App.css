@@ -1,0 +1,93 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+}
+
+/* Custom Variables */
+:root {
+  /* Colors */
+  --primary-color: red;
+  --secondary-color: #f3961c;
+  --white: #ffffff;
+  --black: #000000;
+  --dark-gray: #333333;
+  --light-gray: #555;
+  --bg: #f5f5f5;
+
+  /* Website Max-Width */
+  --site-max-width: 1300px;
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: red;
+  transition: all 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+/* Container Styles */
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+/* Flexbox Styles */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+}
+
+/* List Styles */
+ul li {
+  list-style: none;
+}
+
+/* Button Styles
+button {
+  border-radius: 6px;
+  padding: 13px 18px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  /* Add background color here */
+  background-color: var(--primary-color); /* example usage of custom variable */
+}
+
+/* Button Icon Styles */
+button i {
+  margin-right: 5px;
+} */
