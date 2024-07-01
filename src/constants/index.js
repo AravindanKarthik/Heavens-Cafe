@@ -121,7 +121,7 @@ export const services = [
     imgURL: order,
     label: 'For Reservation',
     subtext:
-      '+91 9965696907',
+      '+91 9150151907',
   },
   {
     imgURL: cakes,
@@ -179,8 +179,8 @@ export const contact = [
         alt: 'mail icon',
       },
       {
-        name: '+91 9965696907',
-        link: 'tel:+919965696907',
+        name: '+91 9150151907',
+        link: 'tel:+919150151907',
         src: phone,
         alt: 'phone icon',
       },
@@ -192,7 +192,7 @@ export const socialMedia = [
   { src: facebook, alt: 'facebook logo', link: 'https://www.facebook.com' },
   { src: twitter, alt: 'twitter logo', link: 'https://www.x.com' },
   { src: instagram, alt: 'instagram logo', link: 'https://www.instagram.com' },
-  { src: whatsapp, alt: 'whatsapp logo', link: "https://api.whatsapp.com/send?phone=+9965696907&text=Hi, more information on Heaven's Cafe!" },
+  { src: whatsapp, alt: 'whatsapp logo', link: "https://api.whatsapp.com/send?phone=+919150151907&text=Hi, Welcome to Heaven's Cafe!" },
 ];
 
 export const info = {
