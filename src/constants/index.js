@@ -192,7 +192,7 @@ export const socialMedia = [
   { src: facebook, alt: 'facebook logo', link: 'https://www.facebook.com' },
   { src: twitter, alt: 'twitter logo', link: 'https://www.x.com' },
   { src: instagram, alt: 'instagram logo', link: 'https://www.instagram.com' },
-  { src: whatsapp, alt: 'whatsapp logo', link: "https://api.whatsapp.com/send?phone=++9150151907&text=Hi, more information on Heaven's Cafe!" },
+  { src: whatsapp, alt: 'whatsapp logo', link: "https://api.whatsapp.com/send?phone=+919150151907&text=Hi, Welcome to Heaven's Cafe!" },
 ];
 
 export const info = {
