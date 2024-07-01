@@ -27,7 +27,7 @@ const ContactUs = () => {
               <div>
                 <img src={phone} alt={phone} width={26} height={26} />
               </div>
-              <p>+91 9965696907</p>
+              <p>+91 9150151907</p>
             </span>
             <span className="text-lg flex gap-2">
               <div>
